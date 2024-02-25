@@ -27,6 +27,7 @@ export const CarGallery = () => {
             
         }
 
+        
         fetchDataAsync()
     }, [page])
 
