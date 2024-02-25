@@ -1,8 +1,6 @@
 import axios from 'axios';
 
-// const BASE_URL = 'https://65d7c1b127d9a3bc1d7bc0a4.mockapi.io/adverts'
-const BASE_URL = 'https://65da98adbcc50200fcdd0976.mockapi.io/adverts'
-
+const BASE_URL = 'https://65d7c1b127d9a3bc1d7bc0a4.mockapi.io/adverts'
 
 export const fetchData = async (page) => {
     const params = new URLSearchParams({        
